@@ -35,7 +35,7 @@ let config = {
 
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
 	timeFormat: 24,
-	units: "metric",
+	units: "imperial",
 
 	modules: [
 		{
