@@ -47,12 +47,12 @@ let config = {
 		},
 		{
 			module: "clock",
-			position: "top_right"
+			position: "top_left"
 		},
 		{
 			module: "calendar",
 			header: "US Holidays",
-			position: "top_right",
+			position: "top_left",
 			config: {
 				calendars: [
 					{
@@ -127,8 +127,8 @@ let config = {
           { lat: 35.6449, lng: -80.9018, zoom: 5, loops: 1 }
         ],
         mapUrl: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-        mapHeight: "2160px", // must be a pixel value (no percent)
-        mapWidth: "1920px", // must be a pixel value (no percent)
+        mapHeight: "420px", // must be a pixel value (no percent)
+        mapWidth: "420px", // must be a pixel value (no percent)
         maxHistoryFrames: 6,
         substituteModules: [],
         updateIntervalInSeconds: 600,
