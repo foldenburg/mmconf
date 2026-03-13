@@ -47,12 +47,12 @@ let config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_right"
 		},
 		{
 			module: "calendar",
 			header: "US Holidays",
-			position: "top_left",
+			position: "top_right",
 			config: {
 				calendars: [
 					{
@@ -73,8 +73,8 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "current",
-				lat: 40.776676,
-				lon: -73.971321
+				lat: 35.6449,
+				lon: -80.9018
 			}
 		},
 		{
@@ -84,8 +84,8 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "forecast",
-				lat: 40.776676,
-				lon: -73.971321
+				lat: 35.6449,
+				lon: -80.9018
 			}
 		},
 		{
@@ -119,19 +119,16 @@ let config = {
         extraDelayCurrentFrameMs: 5000,
         invertColors: false,
         markers: [
-          { lat: 49.41, lng: 8.717, color: "red" },
-          { lat: 48.856, lng: 2.35, color: "green" }
+          { lat: 35.6449, lng: -80.9018, color: "red" }
         ],
         mapPositions: [
-          { lat: 49.41, lng: 8.717, zoom: 7, loops: 1 },
-          { lat: 49.41, lng: 8.717, zoom: 5, loops: 2 },
-          { lat: 48.856, lng: 2.35, zoom: 5, loops: 1 },
-          { lat: 48.856, lng: 2.35, zoom: 7, loops: 2 },
-          { lat: 49.15, lng: 6.154, zoom: 4, loops: 2 }
+          { lat: 35.6449, lng: -80.9018, zoom: 9, loops: 2 },
+          { lat: 35.6449, lng: -80.9018, zoom: 7, loops: 2 },
+          { lat: 35.6449, lng: -80.9018, zoom: 5, loops: 1 }
         ],
-        mapUrl: "https://a.tile.openstreetmap.de/{z}/{x}/{y}.png",
-        mapHeight: "420px", // must be a pixel value (no percent)
-        mapWidth: "420px", // must be a pixel value (no percent)
+        mapUrl: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        mapHeight: "2160px", // must be a pixel value (no percent)
+        mapWidth: "1920px", // must be a pixel value (no percent)
         maxHistoryFrames: 6,
         substituteModules: [],
         updateIntervalInSeconds: 600,

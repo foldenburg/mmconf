@@ -1,0 +1,11 @@
+.region.top.left {
+    width: 1920px;
+}
+.region.top.right {
+    width: 1920px;
+    right: 0;
+    left: auto;
+}
+.region.bottom.bar {
+    width: 100%;
+}
